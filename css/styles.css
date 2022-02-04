@@ -18,3 +18,9 @@ nav a:hover {
   background-color: rgba(128,121,121, 0.596);
   color: white;
 }
+
+.formulario {
+  background-color: white;
+  padding: 2.5rem;
+  margin-top: 4rem;
+}

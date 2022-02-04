@@ -1,9 +1,39 @@
 {
-  "clientes":[
-  {
-    "nombre": "miguel",
-    "email": "miguel@correo.com",
-    "id": 1
-  }
-]
+  "clientes": [
+    {
+      "nombre": "Andrea",
+      "email": "andrea@correo.com",
+      "telefono": 4545775,
+      "empresa": "Kibernum",
+      "id": 3
+    },
+    {
+      "nombre": "Geraldine",
+      "email": "geraldine@correo.com",
+      "telefono": 45453315,
+      "empresa": "Kibernum",
+      "id": 4
+    },
+    {
+      "nombre": "Valentina",
+      "email": "valentina@correo.com",
+      "telefono": 33453315,
+      "empresa": "Kibernum",
+      "id": 5
+    },
+    {
+      "nombre": "Daniel",
+      "email": "daniel@correo.com",
+      "telefono": 55453315,
+      "empresa": "Kibernum",
+      "id": 6
+    },
+    {
+      "nombre": "Miguel",
+      "email": "miguel@correo.com",
+      "telefono": 134545775,
+      "empresa": "Kibernum",
+      "id": 7
+    }
+  ]
 }
