@@ -6,7 +6,7 @@ import { obtenerClientes } from './api.js';
   document.addEventListener('DOMContentLoaded', mostrarClientes);
   async function mostrarClientes() {
     const clientes = await obtenerClientes();
-    // console.log(clientes);
+    console.log(clientes);
     // {}
     clientes.forEach(cliente => {
       const {nombre, email, telefono, empresa, id } = cliente;
@@ -26,7 +26,12 @@ import { obtenerClientes } from './api.js';
         <td>
           <p>${empresa}</p>
         </td>
+        <td>
+          <a href="editar-cliente.html?id=${id}">Editar</a>
+          <a href="#" data-cliente="${id}" class="eliminar">Eliminar</a>
+        </td>
       `;
+      
     listado.appendChild(row);
 
     })
