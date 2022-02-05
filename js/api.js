@@ -32,7 +32,7 @@ export const editarCliente = async cliente => {
     
     await fetch(`${URL}/${cliente.id}`, {
       method: 'PUT',
-      boby: JSON.stringify(cliente),
+      body: JSON.stringify(cliente),
       headers: {
         'Content-Type': 'application/json'
       }

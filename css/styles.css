@@ -24,3 +24,7 @@ nav a:hover {
   padding: 2.5rem;
   margin-top: 4rem;
 }
+
+.error {
+  color: red;
+}

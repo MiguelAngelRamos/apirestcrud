@@ -2,7 +2,7 @@
   "clientes": [
     {
       "nombre": "Andrea",
-      "email": "andrea@correo.com",
+      "email": "andrea@gmail.com",
       "telefono": 4545775,
       "empresa": "Kibernum",
       "id": 3
@@ -23,9 +23,9 @@
     },
     {
       "nombre": "Daniel",
-      "email": "daniel@correo.com",
-      "telefono": 55453315,
+      "email": "daniel@hotmail.com",
       "empresa": "Kibernum",
+      "telefono": "7884547",
       "id": 6
     },
     {
@@ -48,6 +48,13 @@
       "telefono": "46546514",
       "empresa": "Kibernum",
       "id": 9
+    },
+    {
+      "nombre": "Jose",
+      "email": "jose@gmail.com",
+      "empresa": "Kibernum",
+      "telefono": "4545478",
+      "id": 10
     }
   ]
 }
