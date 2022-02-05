@@ -30,8 +30,9 @@ import { validar } from './funciones.js';
       console.log('todos los son obligatorios');
       return;
     }
-
     console.log('pase la validación');
+    nuevoCliente(cliente)
+    
     
 
   }

@@ -9,7 +9,7 @@
     },
     {
       "nombre": "Geraldine",
-      "email": "geraldine@correo.com",
+      "email": "geraldine@gmail.com",
       "telefono": 45453315,
       "empresa": "Kibernum",
       "id": 4
@@ -34,6 +34,20 @@
       "telefono": 134545775,
       "empresa": "Kibernum",
       "id": 7
+    },
+    {
+      "nombre": "Angel",
+      "email": "angel@correo.com",
+      "telefono": "5465114",
+      "empresa": "Kibernum",
+      "id": 8
+    },
+    {
+      "nombre": "Natalia",
+      "email": "natalia@correo.com",
+      "telefono": "46546514",
+      "empresa": "Kibernum",
+      "id": 9
     }
   ]
 }

@@ -25,3 +25,31 @@ export const nuevoCliente =  async cliente => {
     throw error;
   }
 };
+
+// Actualiza un Registro
+export const editarCliente = async cliente => {
+  try {
+    
+    await fetch(`${URL}/${cliente.id}`, {
+      method: 'PUT',
+      boby: JSON.stringify(cliente),
+      headers: {
+        'Content-Type': 'application/json'
+      }
+    });
+    window.location.href = 'index.html';
+  } catch (error) {
+    throw error;
+  }
+};
+
+// Un cliente por id
+export const obtenerCliente = async id => {
+  try {
+    const resultado = await fetch(`${URL}/${id}`);
+    const cliente = await resultado.json();
+    return cliente
+  } catch (error) { 
+    throw error;
+  }
+}
