@@ -29,13 +29,6 @@
       "id": 6
     },
     {
-      "nombre": "Miguel",
-      "email": "miguel@correo.com",
-      "telefono": 134545775,
-      "empresa": "Kibernum",
-      "id": 7
-    },
-    {
       "nombre": "Angel",
       "email": "angel@correo.com",
       "telefono": "5465114",
@@ -48,13 +41,6 @@
       "telefono": "46546514",
       "empresa": "Kibernum",
       "id": 9
-    },
-    {
-      "nombre": "Jose",
-      "email": "jose@gmail.com",
-      "empresa": "Kibernum",
-      "telefono": "4545478",
-      "id": 10
     }
   ]
 }

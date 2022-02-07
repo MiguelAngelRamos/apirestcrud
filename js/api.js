@@ -28,6 +28,7 @@ export const nuevoCliente =  async cliente => {
 
 // Actualiza un Registro
 export const editarCliente = async cliente => {
+  console.log(cliente);
   try {
     
     await fetch(`${URL}/${cliente.id}`, {
@@ -53,3 +54,14 @@ export const obtenerCliente = async id => {
     throw error;
   }
 }
+
+// Función para eliminar un cliente...
+export const eliminarCliente = async (id) => {
+  try {
+    await fetch(`${URL}/${id}`, {
+      method: 'DELETE'
+    });
+  } catch (error) {
+    throw error;
+  }
+};
